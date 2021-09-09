@@ -1,6 +1,6 @@
 # The-Noetherian-property-of-invariant-rings
 
-Let $G$ be a finite group and let $R$ be a Noetherian ring containing $\mathbb{Q}$. Then if $G$ acts on $R$, the invariant ring $R^G$ is also Noetherian. 
+Let $$G$$ be a finite group and let $R$ be a Noetherian ring containing $\mathbb{Q}$. Then if $G$ acts on $R$, the invariant ring $R^G$ is also Noetherian. 
 Note that this works in characteristic 0 rings that contain $\mathbb{Q}$ because of the use of the Reynolds operator.
 
 - Does this work in positive characteristic $p$?
