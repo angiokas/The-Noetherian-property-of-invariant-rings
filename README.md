@@ -1,8 +1,7 @@
-# The-Noetherian-property-of-invariant-rings
+# The Noetherian property of invariant rings
 
-Let $$G$$ be a finite group and let $R$ be a Noetherian ring containing $\mathbb{Q}$. Then if $G$ acts on $R$, the invariant ring $R^G$ is also Noetherian. 
-Note that this works in characteristic 0 rings that contain $\mathbb{Q}$ because of the use of the Reynolds operator.
+In commutative algebra, one typically studies the properties of commutative Noetherian rings. Noetherian rings are rings that have the ascending chain condition, which means that any ascending chain of ideals of the ring must stabilize after a finite number of steps. The prototypical example of a Noetherian ring is a quotient of a polynomial ring or power series ring over a field. The concept of Noetherianity was first identified as an important finiteness condition by the German mathematician, Emmy Noether. She discovered that primary decomposition of ideals is a consequence of the ascending chain condition in 1921. 
 
-- Does this work in positive characteristic $p$?
-  Not in general, however there is no general statement showing that. In general, char $p$ counter argument does not exist so far, however there is a known counterexample in characteristic 2. 
-- Are there ways to weaken the statement so that it does work for all of some specific rings of positive characteristic? Yes. 
+Now if we consider a group $G$ acting on a ring $R$, then the ring of invariants $R^G$ of $R$ under the action of $G$ is a ring of elements of $R$ such that they are fixed under the action of $G$. In 1926, Noether proved that the ring of invariants of a finitely generated algebra over a field, under the action of a finite group, is Noetherian \cite{paper1}. In a related direction, the ring of invariants of a Noetherian ring, that containing the field of rational numbers under the action of a finite group, will always be Noetherian.\cite{paper2} The proof uses the Reynold's operator as the main tool whose definition depends on the order of the given group being invertible. This is where the assumption that the ring contains the rationals is used in a fundamental way. This however is not necessarily true in other cases: there are examples of Noetherian rings of positive characteristic whose rings of invariants are not Noetherian under a finite group action. 
+
+There are two goals to my proposed project: first, to build a large family of commutative Noetherian rings of prime characteristic whose rings of invariants fail to be Noetherian. Second, I plan to investigate weaker versions of the statement by figuring out if there is a class of rings or algebras that maintain the Noetherian property within their invariant rings. 
